@@ -86,7 +86,7 @@ $('#add_bankPromotion').click(function() {
             shadeClose: true,
             shade: false,
             maxmin: true, //开启最大化最小化按钮
-            area: ['893px', '600px'],
+            area: ['1300px', '800px'],
             content: '/bank/addBankPromotionPage',
             success:function(layero, index){
               console.log(layero, index);

@@ -19,6 +19,13 @@
 	<script src="{{ asset('photoClip-master/dist/hammer.min.js')}}"></script> 
 	<script src="{{ asset('photoClip-master/dist/photoClip.min.js')}}"></script>
 	<script type="text/javascript" src="{{ asset('uploadify/jquery.uploadify.min.js')}}"></script>
+
+	<!-- Ueditor的相关调用 -->
+	<link href="{{asset('Ueditor/themes/default/css/umeditor.css')}}" type="text/css" rel="stylesheet">
+	<!-- <script type="text/javascript" src="third-party/jquery.min.js"></script> -->
+	<script type="text/javascript" charset="utf-8" src="{{asset('Ueditor/umeditor.config.js')}}"></script>
+	<script type="text/javascript" charset="utf-8" src="{{asset('Ueditor/umeditor.min.js')}}"></script>
+	<script type="text/javascript" src="{{ asset('Ueditor/lang/zh-cn/zh-cn.js')}}"></script>
 	<style type="text/css">
 	#clip {
 		width: 100%;
@@ -102,10 +109,14 @@
 									placeholder="点击设置结束时间" data-am-datepicker readonly required />
 								</div>
 							</div>
+
 							<div class="am-form-group">
 								<label for="user-weibo" class="am-u-sm-12 am-u-md-2 am-form-label">活动详细信息</label>
 								<div class="am-u-sm-12 am-u-md-10">
-									<input type="text" class="am-input-sm"  name='prom_info'  value="{{$bankPromotion->prom_info}}" placeholder="请填写活动详细信息">
+									<input type="hidden" name="prom_info" value="{{$bankPromotion->prom_info}}"/>
+									<script type="text/plain" id="myEditor" style="width:1000px;height:240px;">
+										<p></p>
+									</script>
 								</div>
 							</div>
 
@@ -129,6 +140,7 @@
 </div>
 <script type="text/javascript" charset="utf-8" async defer>	
 	$(function() { 
+		var um = UM.getEditor('myEditor');
 
 		var startDate = new Date(2014, 11, 20);
 		var endDate = new Date(2014, 11, 25);
@@ -200,6 +212,7 @@
 	})
 
 	$('form').submit(function(){
+		$('input[name="prom_info"]').attr('value',UM.getEditor('myEditor').getContent());
 		$.ajax({ 
 			url: $(this).attr('action'), 
 			type:'get',

@@ -184,7 +184,7 @@ class BankManageController extends Controller
         }
     }
     public function addBankPromotionFunc(Request $request){
-        
+
         $bankPromotionId=$request['bankPromotionId'];
         $bankId=$request['prom_bank'];
         $promChannelId=$request['prom_channel'];
@@ -203,29 +203,40 @@ class BankManageController extends Controller
         //     $existBankPromotion->bankinfo_id=$bankId;
         //     $ex=$existBankPromotion->save();
         // }else{//id不存在，则添加
-            $bankPromotion=new bankPromotion;
-            $bankPromotion->prom_name=$request['prom_name'];
-            $bankPromotion->prom_username="";
-            $bankPromotion->prom_channel=$request['prom_channel'];
-            $bankPromotion->prom_type=$request['prom_type'];
-            $bankPromotion->prom_starttime=$request['prom_starttime'];
-            $bankPromotion->prom_endtime=$request['prom_endtime'];
-            $bankPromotion->prom_info=$request['prom_info'];
-            $bankPromotion->prom_bank=$bankName;
-            $bankPromotion->prom_url=$request['prom_url'];
-            $bankPromotion->prom_imgurl=$request->prom_logo;
-            $bankPromotion->prom_imgname="";
-            $bankPromotion->prom_imginfo="";
-            $bankPromotion->user_id=1123;
-            $bankPromotion->bankinfo_id=$bankId;
-            $bankPromotion->promchannel_id=$promChannelId;
-            $bankPromotion->promtype_id=$promTypeId;
+        $bankPromotion=new bankPromotion;
+        $bankPromotion->prom_name=$request['prom_name'];
+        $bankPromotion->prom_username="";
+        $bankPromotion->prom_channel=$request['prom_channel'];
+        $bankPromotion->prom_type=$request['prom_type'];
+        $bankPromotion->prom_starttime=$request['prom_starttime'];
+        $bankPromotion->prom_endtime=$request['prom_endtime'];
+        $bankPromotion->prom_info=$request['prom_info'];
+        $bankPromotion->prom_bank=$bankName;
+        $bankPromotion->prom_url=$request['prom_url'];
+        $bankPromotion->prom_imgurl=$request->prom_logo;
+        $bankPromotion->prom_imgname="";
+        $bankPromotion->prom_imginfo="";
+        $bankPromotion->user_id=1123;
+        $bankPromotion->bankinfo_id=$bankId;
+        $bankPromotion->promchannel_id=$promChannelId;
+        $bankPromotion->promtype_id=$promTypeId;
 
-            $ex=$bankPromotion->save();
+        $ex=$bankPromotion->save();
         // }
     }
-    public function deleteBankPromotion(Request $request){ //删除银行卡信息
-        $res=BankPromotion::destroy($request['bankPromotionId']); //传入id数组，可以批量删除
+    public function deleteBankPromotion(Request $request){ //删除银行活动信息
+        $bankPromotions=BankPromotion::find($request['bankPromotionId']);
+        $res=BankPromotion::destroy($request['bankPromotionId']); //传入id数组，可以批量删除 
+        if (count($bankPromotions)>1) {
+            foreach ($bankPromotions as $bankPromotion) {
+                $promlogo_path=$bankPromotion->prom_imgurl;
+                unlink($promlogo_path);
+            }  
+        }else{
+            $promlogo_path=$bankPromotions->prom_imgurl;
+            unlink($promlogo_path);
+        }
+              
         return $res;
     }
 
