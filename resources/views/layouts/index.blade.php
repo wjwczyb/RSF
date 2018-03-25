@@ -167,33 +167,7 @@
                 </a>
             </div>
         </li>
-        <li>
-            <div class="am-gallery-item">
-                <a href="#">
-                    <img src="{{asset('MengUI/Temp-images/tempnews.png')}}"  alt="远方 有一个地方 那里种有我们的梦想"/>
-                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                    <div class="am-gallery-desc">2375-09-26</div>
-                </a>
-            </div>
-        </li>
-        <li>
-            <div class="am-gallery-item">
-                <a href="#">
-                    <img src="{{asset('MengUI/Temp-images/tempnews.png')}}"  alt="远方 有一个地方 那里种有我们的梦想"/>
-                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                    <div class="am-gallery-desc">2375-09-26</div>
-                </a>
-            </div>
-        </li>
-        <li>
-            <div class="am-gallery-item">
-                <a href="#">
-                    <img src="{{asset('MengUI/Temp-images/tempnews.png')}}"  alt="远方 有一个地方 那里种有我们的梦想"/>
-                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                    <div class="am-gallery-desc">2375-09-26</div>
-                </a>
-            </div>
-        </li>
+
     </ul>
 </div> -->
 <!--news-->
@@ -237,21 +211,7 @@
             </div>
         
             <div class="am-hide-sm">
-         <!--        <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
-                    <h2 class="am-titlebar-title ">
-                        热门资讯
-                    </h2>
-                    <nav class="am-titlebar-nav">
-                        <a href="#more" onclick="$('.case').hide();$('#youxi').show();">游戏案例</a>
-                        <a href="#more" onclick="$('.case').hide();$('#yingxiao').show();">营销案例</a>
-                        <a href="#more" onclick="$('.case').hide();$('#gongju').show();">工具案例</a>
-                    </nav>
-                </div>
- -->
-
-               <!--  <div id="youxi" class="case am-animation-slide-left">
-         
-                </div> -->
+ 
 
                 <div id="yingxiao" class="case am-animation-slide-right dn">
                     <ul class="am-gallery am-avg-sm-2 am-avg-md-4 am-avg-lg-4 am-gallery-overlay" data-am-gallery="{ pureview: true }" >
@@ -273,6 +233,7 @@
                                 </a>
                             </div>
                         </li>
+                       
                         <li>
                             <div class="am-gallery-item">
                                 <a href="{{asset('MengUI/Temp-images/dd.jpg')}}">
@@ -282,131 +243,13 @@
                                 </a>
                             </div>
                         </li>
-                        <li>
-                            <div class="am-gallery-item">
-                                <a href="{{asset('MengUI/Temp-images/dd.jpg')}}">
-                                    <img src="{{asset('MengUI/Temp-images/cc.jpg')}}" data-replace-img="{{asset('MengUI/Temp-images/dd.jpg')}}" alt="远方 有一个地方 那里种有我们的梦想"/>
-                                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                                    <div class="am-gallery-desc">2375-09-26</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="am-gallery-item">
-                                <a href="{{asset('MengUI/Temp-images/dd.jpg')}}">
-                                    <img src="{{asset('MengUI/Temp-images/cc.jpg')}}" data-replace-img="{{asset('MengUI/Temp-images/dd.jpg')}}" alt="远方 有一个地方 那里种有我们的梦想"/>
-                                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                                    <div class="am-gallery-desc">2375-09-26</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="am-gallery-item">
-                                <a href="{{asset('MengUI/Temp-images/dd.jpg')}}">
-                                    <img src="{{asset('MengUI/Temp-images/cc.jpg')}}" data-replace-img="{{asset('MengUI/Temp-images/dd.jpg')}}" alt="远方 有一个地方 那里种有我们的梦想"/>
-                                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                                    <div class="am-gallery-desc">2375-09-26</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="am-gallery-item">
-                                <a href="{{asset('MengUI/Temp-images/dd.jpg')}}">
-                                    <img src="{{asset('MengUI/Temp-images/cc.jpg')}}" data-replace-img="{{asset('MengUI/Temp-images/dd.jpg')}}" alt="远方 有一个地方 那里种有我们的梦想"/>
-                                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                                    <div class="am-gallery-desc">2375-09-26</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="am-gallery-item">
-                                <a href="{{asset('MengUI/Temp-images/dd.jpg')}}">
-                                    <img src="{{asset('MengUI/Temp-images/cc.jpg')}}" data-replace-img="{{asset('MengUI/Temp-images/dd.jpg')}}" alt="远方 有一个地方 那里种有我们的梦想"/>
-                                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                                    <div class="am-gallery-desc">2375-09-26</div>
-                                </a>
-                            </div>
-                        </li>
+       
                     </ul>
                 </div>
 
 
-       <!--          <div id="gongju" class="dn case am-animation-slide-right">
-                    <ul class="am-gallery am-avg-sm-2 am-avg-md-4 am-avg-lg-4 am-gallery-overlay" data-am-gallery="{ pureview: true }" >
-                        <li>
-                            <div class="am-gallery-item">
-                                <a href="{{asset('MengUI/Temp-images/dd.jpg')}}">
-                                    <img src="{{asset('MengUI/Temp-images/cc.jpg')}}" data-replace-img="{{asset('MengUI/Temp-images/dd.jpg')}}" alt="远方 有一个地方 那里种有我们的梦想"/>
-                                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                                    <div class="am-gallery-desc">2375-09-26</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="am-gallery-item">
-                                <a href="{{asset('MengUI/Temp-images/dd.jpg')}}">
-                                    <img src="{{asset('MengUI/Temp-images/cc.jpg')}}" data-replace-img="{{asset('MengUI/Temp-images/dd.jpg')}}" alt="远方 有一个地方 那里种有我们的梦想"/>
-                                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                                    <div class="am-gallery-desc">2375-09-26</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="am-gallery-item">
-                                <a href="{{asset('MengUI/Temp-images/dd.jpg')}}">
-                                    <img src="{{asset('MengUI/Temp-images/cc.jpg')}}" data-replace-img="{{asset('MengUI/Temp-images/dd.jpg')}}" alt="远方 有一个地方 那里种有我们的梦想"/>
-                                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                                    <div class="am-gallery-desc">2375-09-26</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="am-gallery-item">
-                                <a href="{{asset('MengUI/Temp-images/dd.jpg')}}">
-                                    <img src="{{asset('MengUI/Temp-images/cc.jpg')}}" data-replace-img="{{asset('MengUI/Temp-images/dd.jpg')}}" alt="远方 有一个地方 那里种有我们的梦想"/>
-                                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                                    <div class="am-gallery-desc">2375-09-26</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="am-gallery-item">
-                                <a href="{{asset('MengUI/Temp-images/dd.jpg')}}">
-                                    <img src="{{asset('MengUI/Temp-images/cc.jpg')}}" data-replace-img="{{asset('MengUI/Temp-images/dd.jpg')}}" alt="远方 有一个地方 那里种有我们的梦想"/>
-                                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                                    <div class="am-gallery-desc">2375-09-26</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="am-gallery-item">
-                                <a href="{{asset('MengUI/Temp-images/dd.jpg')}}">
-                                    <img src="{{asset('MengUI/Temp-images/cc.jpg')}}" data-replace-img="{{asset('MengUI/Temp-images/dd.jpg')}}" alt="远方 有一个地方 那里种有我们的梦想"/>
-                                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                                    <div class="am-gallery-desc">2375-09-26</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="am-gallery-item">
-                                <a href="{{asset('MengUI/Temp-images/dd.jpg')}}">
-                                    <img src="{{asset('MengUI/Temp-images/cc.jpg')}}" data-replace-img="{{asset('MengUI/Temp-images/dd.jpg')}}" alt="远方 有一个地方 那里种有我们的梦想"/>
-                                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                                    <div class="am-gallery-desc">2375-09-26</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="am-gallery-item">
-                                <a href="{{asset('MengUI/Temp-images/dd.jpg')}}">
-                                    <img src="{{asset('MengUI/Temp-images/cc.jpg')}}" data-replace-img="{{asset('MengUI/Temp-images/dd.jpg')}}" alt="远方 有一个地方 那里种有我们的梦想"/>
-                                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                                    <div class="am-gallery-desc">2375-09-26</div>
-                                </a>
-                            </div>
-                        </li>
-                    </ul>
-                </div> -->
+   
+                           
             </div>
         </div>
     </div>
@@ -506,18 +349,7 @@
                     </a>
                 </div>
             </li>
-            <li>
-                <div class="am-gallery-item">
-                    <a href="http://s.amazeui.org/media/i/demos/bing-2.jpg" class="">
-                        <img src="http://s.amazeui.org/media/i/demos/bing-2.jpg"  alt="某天 也许会相遇 相遇在这个好地方"/>
-                        <h3 class="am-gallery-title">某天 也许会相遇 相遇在这个好地方</h3>
-                        <div class="am-gallery-desc">
-                            <div class="am-fr">北京</div>
-                            <div class="am-fl">2016/11/11</div>
-                        </div>
-                    </a>
-                </div>
-            </li>
+ 
         </ul>
 
     </div>
