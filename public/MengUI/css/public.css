@@ -30,7 +30,7 @@ html,body{
 }
 .star{
     width: 100%;
-    border-bottom: 1px solid #e1652f;
+    border-bottom: 1px solid #FF8C05;
     height: 15px;
     text-align: center;
     margin: 20px 0 30px 0;
@@ -87,14 +87,14 @@ html,body{
 .right-bg img {
 }
 footer{
-    background-color: #222222;
-    color: #ddd;
+    background-color: #18dcff;
+    color: #4b4b4b;
     padding: 50px 0;
     text-align: center;
     margin-top: 50px;
 }
 footer a{
-    color: #ddd;
+    color: #4b4b4b;
 }
 footer a:hover{
     color: #fff;
