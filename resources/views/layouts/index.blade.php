@@ -156,7 +156,7 @@
 </div>
 
 <!--banner2-->
-<div class="am-container">
+<!-- <div class="am-container">
     <ul class="padding-none banner2 am-gallery am-avg-sm-2 am-avg-md-4 am-avg-lg-4 am-gallery-overlay" data-am-gallery="{ pureview: true }" >
         <li>
             <div class="am-gallery-item">
@@ -195,7 +195,7 @@
             </div>
         </li>
     </ul>
-</div>
+</div> -->
 <!--news-->
 <div class="am-g am-container newatype">
     <div class="am-u-sm-12 am-u-md-12 am-u-lg-8 oh">
@@ -231,118 +231,13 @@
                     </div>
 
 
-                    <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left" data-am-scrollspy="{animation:'fade'}">
-                        <div class="am-u-sm-5 am-list-thumb">
-                            <a href="http://www.douban.com/online/11624755/">
-                                <img src="{{asset('MengUI/Temp-images/b2.jpg')}}" alt="我最喜欢的一张画"/>
-                            </a>
-                        </div>
-
-                        <div class=" am-u-sm-7 am-list-main">
-                            <h3 class="am-list-item-hd"><a href="http://www.douban.com/online/11624755/">我最喜欢的一张画</a></h3>
-
-                            <div class="am-list-item-text">你最喜欢的艺术作品，告诉大家它们的------名图画，色彩，交织，撞色，线条雕塑装置当代古代现代作品的照片美我最喜欢的画群296795413进群发画，少说多发图，</div>
-
-                        </div>
-                    </li>
-
-                    <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left" data-am-scrollspy="{animation:'fade'}">
-                        <div class="am-u-sm-5 am-list-thumb">
-                            <a href="http://www.douban.com/online/11624755/">
-                                <img src="{{asset('MengUI/Temp-images/b2.jpg')}}" alt="我最喜欢的一张画"/>
-                            </a>
-                        </div>
-
-                        <div class=" am-u-sm-7 am-list-main">
-                            <h3 class="am-list-item-hd"><a href="http://www.douban.com/online/11624755/">我最喜欢的一张画</a></h3>
-
-                            <div class="am-list-item-text">你最喜欢的艺术作品，告诉大家它们的------名图画，色彩，交织，撞色，线条雕塑装置当代古代现代作品的照片美我最喜欢的画群296795413进群发画，少说多发图，</div>
-
-                        </div>
-                    </li>
-
-                    <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left" data-am-scrollspy="{animation:'fade'}">
-                        <div class="am-u-sm-7 am-list-thumb">
-                            <a href="http://www.douban.com/online/11624755/">
-                                <img src="{{asset('MengUI/Temp-images/b2.jpg')}}" alt="我最喜欢的一张画"/>
-                            </a>
-                        </div>
-
-                        <div class=" am-u-sm-5 am-list-main">
-                            <h3 class="am-list-item-hd"><a href="http://www.douban.com/online/11624755/">我最喜欢的一张画</a></h3>
-
-                            <div class="am-list-item-text">你最喜欢的艺术作品，告诉大家它们的------名图画，色彩，交织，撞色，线条雕塑装置当代古代现代作品的照片美我最喜欢的画群296795413进群发画，少说多发图，</div>
-
-                        </div>
-                    </li>
-
-                    <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left" data-am-scrollspy="{animation:'fade'}">
-                        <div class="am-u-sm-5 am-list-thumb">
-                            <a href="http://www.douban.com/online/11624755/">
-                                <img src="{{asset('MengUI/Temp-images/b2.jpg')}}" alt="我最喜欢的一张画"/>
-                            </a>
-                        </div>
-
-                        <div class=" am-u-sm-7 am-list-main">
-                            <h3 class="am-list-item-hd"><a href="http://www.douban.com/online/11624755/">我最喜欢的一张画</a></h3>
-
-                            <div class="am-list-item-text">你最喜欢的艺术作品，告诉大家它们的------名图画，色彩，交织，撞色，线条雕塑装置当代古代现代作品的照片美我最喜欢的画群296795413进群发画，少说多发图，</div>
-
-                        </div>
-                    </li>
-
-                    <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left" data-am-scrollspy="{animation:'fade'}">
-                        <div class="am-u-sm-5 am-list-thumb">
-                            <a href="http://www.douban.com/online/11624755/">
-                                <img src="{{asset('MengUI/Temp-images/b2.jpg')}}" alt="我最喜欢的一张画"/>
-                            </a>
-                        </div>
-
-                        <div class=" am-u-sm-7 am-list-main">
-                            <h3 class="am-list-item-hd"><a href="http://www.douban.com/online/11624755/">我最喜欢的一张画</a></h3>
-
-                            <div class="am-list-item-text">你最喜欢的艺术作品，告诉大家它们的------名图画，色彩，交织，撞色，线条雕塑装置当代古代现代作品的照片美我最喜欢的画群296795413进群发画，少说多发图，</div>
-
-                        </div>
-                    </li>
-
-                    <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left" data-am-scrollspy="{animation:'fade'}">
-                        <div class="am-u-sm-5 am-list-thumb">
-                            <a href="http://www.douban.com/online/11624755/">
-                                <img src="{{asset('MengUI/Temp-images/b2.jpg')}}" alt="我最喜欢的一张画"/>
-                            </a>
-                        </div>
-
-                        <div class=" am-u-sm-7 am-list-main">
-                            <h3 class="am-list-item-hd"><a href="http://www.douban.com/online/11624755/">我最喜欢的一张画</a></h3>
-
-                            <div class="am-list-item-text">你最喜欢的艺术作品，告诉大家它们的------名图画，色彩，交织，撞色，线条雕塑装置当代古代现代作品的照片美我最喜欢的画群296795413进群发画，少说多发图，</div>
-
-                        </div>
-                    </li>
-
-                    <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left" data-am-scrollspy="{animation:'fade'}">
-                        <div class="am-u-sm-5 am-list-thumb">
-                            <a href="http://www.douban.com/online/11624755/">
-                                <img src="{{asset('MengUI/Temp-images/b2.jpg')}}" alt="我最喜欢的一张画"/>
-                            </a>
-                        </div>
-
-                        <div class=" am-u-sm-7 am-list-main">
-                            <h3 class="am-list-item-hd"><a href="http://www.douban.com/online/11624755/">我最喜欢的一张画</a></h3>
-
-                            <div class="am-list-item-text">你最喜欢的艺术作品，告诉大家它们的------名图画，色彩，交织，撞色，线条雕塑装置当代古代现代作品的照片美我最喜欢的画群296795413进群发画，少说多发图，</div>
-
-                        </div>
-                    </li>
-
+                   
 
                 </ul>
             </div>
-            <a href="#"><img src="{{asset('MengUI/Temp-images/ad2.png')}}" class="am-img-responsive" width="100%"/></a>
-
+        
             <div class="am-hide-sm">
-                <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
+         <!--        <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
                     <h2 class="am-titlebar-title ">
                         热门资讯
                     </h2>
@@ -352,84 +247,11 @@
                         <a href="#more" onclick="$('.case').hide();$('#gongju').show();">工具案例</a>
                     </nav>
                 </div>
+ -->
 
-
-                <div id="youxi" class="case am-animation-slide-left">
-                    <ul class="am-gallery am-avg-sm-2 am-avg-md-4 am-avg-lg-4 am-gallery-overlay" data-am-gallery="{ pureview: true }" >
-                        <li>
-                            <div class="am-gallery-item">
-                                <a href="{{asset('MengUI/Temp-images/dd.jpg')}}">
-                                    <img src="{{asset('MengUI/Temp-images/cc.jpg')}}" data-replace-img="{{asset('MengUI/Temp-images/dd.jpg')}}" alt="远方 有一个地方 那里种有我们的梦想"/>
-                                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                                    <div class="am-gallery-desc">2375-09-26</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="am-gallery-item">
-                                <a href="{{asset('MengUI/Temp-images/dd.jpg')}}">
-                                    <img src="{{asset('MengUI/Temp-images/cc.jpg')}}" data-replace-img="{{asset('MengUI/Temp-images/dd.jpg')}}" alt="远方 有一个地方 那里种有我们的梦想"/>
-                                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                                    <div class="am-gallery-desc">2375-09-26</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="am-gallery-item">
-                                <a href="{{asset('MengUI/Temp-images/dd.jpg')}}">
-                                    <img src="{{asset('MengUI/Temp-images/cc.jpg')}}" data-replace-img="{{asset('MengUI/Temp-images/dd.jpg')}}" alt="远方 有一个地方 那里种有我们的梦想"/>
-                                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                                    <div class="am-gallery-desc">2375-09-26</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="am-gallery-item">
-                                <a href="{{asset('MengUI/Temp-images/dd.jpg')}}">
-                                    <img src="{{asset('MengUI/Temp-images/cc.jpg')}}" data-replace-img="{{asset('MengUI/Temp-images/dd.jpg')}}" alt="远方 有一个地方 那里种有我们的梦想"/>
-                                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                                    <div class="am-gallery-desc">2375-09-26</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="am-gallery-item">
-                                <a href="{{asset('MengUI/Temp-images/dd.jpg')}}">
-                                    <img src="{{asset('MengUI/Temp-images/cc.jpg')}}" data-replace-img="{{asset('MengUI/Temp-images/dd.jpg')}}" alt="远方 有一个地方 那里种有我们的梦想"/>
-                                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                                    <div class="am-gallery-desc">2375-09-26</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="am-gallery-item">
-                                <a href="{{asset('MengUI/Temp-images/dd.jpg')}}">
-                                    <img src="{{asset('MengUI/Temp-images/cc.jpg')}}" data-replace-img="{{asset('MengUI/Temp-images/dd.jpg')}}" alt="远方 有一个地方 那里种有我们的梦想"/>
-                                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                                    <div class="am-gallery-desc">2375-09-26</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="am-gallery-item">
-                                <a href="{{asset('MengUI/Temp-images/dd.jpg')}}">
-                                    <img src="{{asset('MengUI/Temp-images/cc.jpg')}}" data-replace-img="{{asset('MengUI/Temp-images/dd.jpg')}}" alt="远方 有一个地方 那里种有我们的梦想"/>
-                                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                                    <div class="am-gallery-desc">2375-09-26</div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="am-gallery-item">
-                                <a href="{{asset('MengUI/Temp-images/dd.jpg')}}">
-                                    <img src="{{asset('MengUI/Temp-images/cc.jpg')}}" data-replace-img="{{asset('MengUI/Temp-images/dd.jpg')}}" alt="远方 有一个地方 那里种有我们的梦想"/>
-                                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                                    <div class="am-gallery-desc">2375-09-26</div>
-                                </a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+               <!--  <div id="youxi" class="case am-animation-slide-left">
+         
+                </div> -->
 
                 <div id="yingxiao" class="case am-animation-slide-right dn">
                     <ul class="am-gallery am-avg-sm-2 am-avg-md-4 am-avg-lg-4 am-gallery-overlay" data-am-gallery="{ pureview: true }" >
@@ -509,7 +331,7 @@
                 </div>
 
 
-                <div id="gongju" class="dn case am-animation-slide-right">
+       <!--          <div id="gongju" class="dn case am-animation-slide-right">
                     <ul class="am-gallery am-avg-sm-2 am-avg-md-4 am-avg-lg-4 am-gallery-overlay" data-am-gallery="{ pureview: true }" >
                         <li>
                             <div class="am-gallery-item">
@@ -584,66 +406,13 @@
                             </div>
                         </li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
     <div class="am-u-sm-12 am-u-md-12 am-u-lg-4">
-        <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
-            <h2 class="am-titlebar-title ">
-                个人专栏
-            </h2>
-            <nav class="am-titlebar-nav">
-                <a href="#more">more &raquo;</a>
-            </nav>
-        </div>
-        <div data-am-widget="list_news" class="am-list-news am-list-news-default right-bg" data-am-scrollspy="{animation:'fade'}">
-                <ul class="am-list"  >
-                    <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
-                        <div class="am-u-sm-4 am-list-thumb">
-                            <a href="http://www.douban.com/online/11624755/">
-                                <img src="{{asset('MengUI/Temp-images/face.jpg')}}" class="face"/>
-                            </a>
-                        </div>
-
-                        <div class=" am-u-sm-8 am-list-main">
-                            <h3 class="am-list-item-hd"><a href="http://www.douban.com/online/11624755/">勾三古寺</a></h3>
-
-                            <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
-                        </div>
-                    </li>
-                    <hr data-am-widget="divider" style="" class="am-divider am-divider-default" />
-                    <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
-                        <div class="am-u-sm-4 am-list-thumb">
-                            <a href="http://www.douban.com/online/11624755/">
-                                <img src="{{asset('MengUI/Temp-images/face.jpg')}}" class="face"/>
-                            </a>
-                        </div>
-
-                        <div class=" am-u-sm-8 am-list-main">
-                            <h3 class="am-list-item-hd"><a href="http://www.douban.com/online/11624755/">勾三古寺</a></h3>
-
-                            <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
-
-                        </div>
-                    </li>
-                    <hr data-am-widget="divider" style="" class="am-divider am-divider-default" />
-                    <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
-                        <div class="am-u-sm-4 am-list-thumb">
-                            <a href="http://www.douban.com/online/11624755/">
-                                <img src="{{asset('MengUI/Temp-images/face.jpg')}}" class="face"/>
-                            </a>
-                        </div>
-
-                        <div class=" am-u-sm-8 am-list-main">
-                            <h3 class="am-list-item-hd"><a href="http://www.douban.com/online/11624755/">勾三古寺</a></h3>
-
-                            <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
-
-                        </div>
-                    </li>
-                </ul>
-        </div>
+       
+      
 
         <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
             <h2 class="am-titlebar-title ">
@@ -710,53 +479,6 @@
             </nav>
         </div>
 
-        <div data-am-widget="list_news" class="am-list-news am-list-news-default right-bg" data-am-scrollspy="{animation:'fade'}">
-            <ul class="am-list"  >
-                <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
-                    <div class="am-u-sm-4 am-list-thumb">
-                        <a href="http://www.douban.com/online/11624755/">
-                            <img src="{{asset('MengUI/Temp-images/face.jpg')}}"/>
-                        </a>
-                    </div>
-
-                    <div class=" am-u-sm-8 am-list-main">
-                        <h3 class="am-list-item-hd"><a href="http://www.douban.com/online/11624755/">勾三古寺</a></h3>
-
-                        <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
-                    </div>
-                </li>
-                <hr data-am-widget="divider" style="" class="am-divider am-divider-default" />
-                <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
-                    <div class="am-u-sm-4 am-list-thumb">
-                        <a href="http://www.douban.com/online/11624755/">
-                            <img src="{{asset('MengUI/Temp-images/face.jpg')}}"/>
-                        </a>
-                    </div>
-
-                    <div class=" am-u-sm-8 am-list-main">
-                        <h3 class="am-list-item-hd"><a href="http://www.douban.com/online/11624755/">勾三古寺</a></h3>
-
-                        <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
-
-                    </div>
-                </li>
-                <hr data-am-widget="divider" style="" class="am-divider am-divider-default" />
-                <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
-                    <div class="am-u-sm-4 am-list-thumb">
-                        <a href="http://www.douban.com/online/11624755/">
-                            <img src="{{asset('MengUI/Temp-images/face.jpg')}}"/>
-                        </a>
-                    </div>
-
-                    <div class=" am-u-sm-8 am-list-main">
-                        <h3 class="am-list-item-hd"><a href="http://www.douban.com/online/11624755/">勾三古寺</a></h3>
-
-                        <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
-
-                    </div>
-                </li>
-            </ul>
-        </div>
 
         <ul class="am-gallery am-avg-sm-1
   am-avg-md-1 am-avg-lg-1 am-gallery-default" data-am-gallery="{ pureview: true }" >
