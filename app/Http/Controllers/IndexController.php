@@ -12,4 +12,11 @@ class IndexController extends Controller
     {
         return view('Index/home')->with('title','信用卡本地优惠信息');
     }
+
+
+
+
+
+
+    
 }
