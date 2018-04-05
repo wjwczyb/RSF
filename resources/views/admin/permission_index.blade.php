@@ -171,10 +171,10 @@ $('.single_enabled').click(function() {
             if(data){
                if(permission_status==1){
                   $(thisbutton).removeClass('am-btn-warning').addClass('am-btn-success').html("<span class='am-icon-copy'></span> 启用");
-                  $(this_ob).attr('value',0).parent().attr('value',0).find('span').text('已禁用')
+                  $(this_ob).attr('value',0).parent().find('span').text('已禁用')
                 }else{
                   $(thisbutton).removeClass('am-btn-success').addClass('am-btn-warning').html("<span class='am-icon-copy'></span> 禁用");
-                  $(this_ob).attr('value',1).parent().attr('value',1).find('span').text('已启用')      
+                  $(this_ob).attr('value',1).parent().find('span').text('已启用')      
                 }
             }            
             layer.close(index);
