@@ -93,7 +93,7 @@
                             </a>
                         </li>
                         <li class="am-panel">
-                            <a href="admin-404.html">
+                            <a href="/bank/bank_cards_manage">
                                 <i class="am-list-ico am-icon-bug am-margin-left-sm"></i> 卡管理 </i>
                             </a>
                         </li>
@@ -103,7 +103,7 @@
                             </a>
                             <ul class="am-list am-collapse admin-sidebar-sub" id="discountinfo-nav">
                                 <li><a href="admin-form.html"><i class="am-list-ico am-icon-check am-margin-left-sm"></i> 信息分类 </a></li>
-                                <li><a href="admin-table.html"><i class="am-list-ico am-icon-table am-margin-left-sm"></i> 信息内容 </a></li>
+                                <li><a href="/bank/bank_promotions_manage"><i class="am-list-ico am-icon-table am-margin-left-sm"></i> 银行卡优惠信息 </a></li>
                             </ul>
                         </li>
                     </ul>

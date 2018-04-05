@@ -136,7 +136,7 @@ class AdminController extends Controller
         }else{
             $res_permission=$permission;
         }
-        return view('/admin/AddPermission')->with('permission',$res_permission);
+        return view('/admin/addPermission')->with('permission',$res_permission);
     }
 
     public function add_role(Request $request){         //增加或修改角色的中間處理方法，傳遞信息返回到增加界面，再做進一步的操作
